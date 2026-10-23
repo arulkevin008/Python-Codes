@@ -1,0 +1,11 @@
+import numpy as np
+arr=np.array([[2,3,4,5,1],[6,7,8,9,0]])
+print(arr.ndim)
+print(arr[0,2]+arr[1])
+print(arr.base)
+print(arr.shape)
+print(arr.reshape(5,2))
+print(arr.reshape(2,1,5))
+print(np.array_split(arr,5))
+print(np.where(arr==6))
+print(np.sort(arr))
